@@ -1,3 +1,6 @@
+---
+title: Hello World!
+---
 
 My Web Page
 ===========
