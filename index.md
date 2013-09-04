@@ -1,4 +1,5 @@
 ---
+layout: main
 title: Hello World!
 ---
 
