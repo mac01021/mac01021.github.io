@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title> {{page.title}} </title>
+
+{% include styles.html %}
 
 </head>
 <body>
 
+<!-- This frame defines the layout of the page. It depends on the 
+        css in the styles defined above to provide the correct spacing
+        for everything.-->
+<div id="frame">
+    {% include left_banner.html %}
+    <div id="middle-back"> </div> <!-- Allocate space in the middle -->
+    {% include right_banner.html %}
+</div>
 
 
-
-{{content}}
+<!-- The main content gets lain over the "middle-back" div in
+        the frame defined above -->
+<div id="content">
+    {{content}}
+</div>
 
 
 
