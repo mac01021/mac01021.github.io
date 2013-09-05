@@ -3,7 +3,7 @@
 
 
 body {
-    overflow: scroll;
+    overflow: hidden;
 }
 
 #frame {
@@ -63,14 +63,15 @@ body {
     text-align: center;
 }
 
-#content {
+#content-pane {
     position: absolute;
     top: 0px;
     left: 300px;
     width: 767px;
-    height: auto;
+    height: 100%;
     padding: 64px;
     z-index: 1;
+    overflow: scroll;
 }
 
 
