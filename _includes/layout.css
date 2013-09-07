@@ -1,0 +1,77 @@
+
+
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+#left-outer {
+    float: left;
+    height: 100%;
+    width: 14%;
+    min-width: 100px;
+
+    padding-right: 5px;
+}
+#mid-outer {
+    float: left;
+    height: 100%;
+    width: 60%;
+    min-width: 400px;
+
+    overflow: auto;
+}
+#right-outer {
+    float: left;
+    height: 100%;
+    width: 15%;
+    min-width: 150px;
+
+    padding-left: 5px;
+}
+
+
+
+
+#left-inner {
+    height: 100%;
+    width: 100%;
+}
+#left-inner > a {
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+#right-inner {
+    height: 100%;
+    width: 100%;
+
+    padding-top: 10px;
+}
+#right-inner > div.tabs {
+    float: left;
+    height: auto;
+    width: 100%;
+    max-width: 250px;
+}
+#right-inner  div.tab {
+    padding: 5px;
+    width: 100%;
+}
+#right-inner > br {
+    float: left;
+}
+
+
+

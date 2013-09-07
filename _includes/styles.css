@@ -1,15 +1,15 @@
 
-<style type="text/css">
 
+
+body {
+    background-color: #d8d876;
+}
 #left-outer {
     background-color: #777733;
 }
-
-
 #left-inner {
     background-color: #d8d876;
 }
-
 #left-inner > a {
     background-color: #777733;
     color: white;
@@ -18,16 +18,19 @@
 
 
 
+
+
+
+#right-outer {
+    background-color: #777733;
+}
 #right-inner {
     background-color: #d8d876;
 }
-
-
 #right-inner  div.tab {
     background-color: #777733;
     color: white;
 }
-
 .tab > a {
     color: white;
     text-decoration: none;
@@ -35,19 +38,16 @@
 
 
 
-#middle-back {
-    background-color: #777733;
-}
 
 
-#content-pane {
+
+
+
+#mid-outer {
     background-color: #ffffec;
 }
+#mid-inner {
+    padding-left: 50px;
+}
 
-
-
-
-
-
-</style>
 
