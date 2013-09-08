@@ -31,7 +31,7 @@ body {
     background-color: #777733;
     color: white;
 }
-.tab > a {
+.tab   a {
     color: white;
     text-decoration: none;
 }

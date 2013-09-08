@@ -42,6 +42,8 @@ body {
 #left-inner {
     height: 100%;
     width: 100%;
+
+    margin-top: 50px;
 }
 #left-inner > a {
     display: block;
