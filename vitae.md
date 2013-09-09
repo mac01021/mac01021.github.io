@@ -39,7 +39,7 @@ Professional Experience
 -   The application used SQL Server and TM1 databases in its back end.
 -   Also contributed to some tools for querying a TM1 database from an Excel
     spreadsheet.
-    
+
 **2009-SEP** *through* **2009-DEC**: Software Developer (as contractor)
   @ **Pfizer**
 
