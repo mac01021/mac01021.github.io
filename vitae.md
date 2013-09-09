@@ -21,6 +21,7 @@ Professional Experience
 
 **2010-AUG** *through* **PRESENT**: Applications Developer
   @ **University of CT - Student Affairs IT**
+
 -   Collaborates on a team of ~5 to design, build, and maintain software
     applications.
 -   Application projects are planned and carried out using an Agile (SCRUM)

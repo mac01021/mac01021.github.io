@@ -1,17 +1,20 @@
 
+{% assign dark_color = '#777733' %}
+{% assign medium_color = '#d8d876' %}
+{% assign light_color = '#ffffec' %}
 
 
 body {
-    background-color: #d8d876;
+    background-color: {{ medium_color }};
 }
 #left-outer {
-    background-color: #777733;
+    background-color: {{ dark_color }};
 }
 #left-inner {
-    background-color: #d8d876;
+    background-color: {{ medium_color }};
 }
 #left-inner > a {
-    background-color: #777733;
+    background-color: {{ dark_color }};
     color: white;
     text-decoration: none;
 }
@@ -22,13 +25,13 @@ body {
 
 
 #right-outer {
-    background-color: #777733;
+    background-color: {{ dark_color }};
 }
 #right-inner {
-    background-color: #d8d876;
+    background-color: {{ medium_color }};
 }
 #right-inner  div.tab {
-    background-color: #777733;
+    background-color: {{ dark_color }};
     color: white;
 }
 .tab   a {
@@ -44,10 +47,7 @@ body {
 
 
 #mid-outer {
-    background-color: #ffffec;
-}
-#mid-inner {
-    padding-left: 50px;
+    background-color: {{ light_color }};
 }
 
 
