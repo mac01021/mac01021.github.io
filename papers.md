@@ -3,6 +3,13 @@ layout: main
 title: Publications
 ---
 
-I am the (co)author of a few papers.  I will list them here after I
-remember which papers they are.
+I have contributed content and support to the following papers. I will try to
+post copies in PDF form in the future.
+
+- One
+- Two
+- Three
+- Four
+
+
 
