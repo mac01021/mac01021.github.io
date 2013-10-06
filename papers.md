@@ -23,6 +23,6 @@ post a copy of each publication in the future.
 - Data collection with multiple sinks in wireless sensor networks (Chen, S.,
   Coolbeth, M., Dinh, H., Kim, Y. A., & Wang, B.), In Proceedings
   of the 2009 conference on Wireless Algorithms, Systems, and Applications:
-  pp. 284-294, 2009.  ([PDF](/papers/data-collection.pdf))
+  pp. 284-294, 2009.  ([PDF](/documents/data-collection.pdf))
 
 
