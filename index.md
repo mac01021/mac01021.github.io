@@ -6,16 +6,9 @@ title: Hello World!
 My Web Page
 ===========
 
-Welcome to my site.
+Welcome to my home page.
 
-Section 1
----------
+The links to the left and right will lead you to various bits of information
+about me.
 
-Contains the first part.
-
-
-Section 2
----------
-
-Contains the second part.
 
