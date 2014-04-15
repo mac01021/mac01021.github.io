@@ -73,6 +73,8 @@ Experience with Programming Tools and Practices
 
 **Programming Languages**: C/C++, Go, Java, Javascript, Python, SQL, et cetera
 
+**Relational Database Systems**: Microsoft SQL Server, MySQL, Oracle
+
 **Software Development Methodologies**: Agile, SCRUM, Continuous Integration, Test-Driven Development
 
 I'm probably forgetting something.  Ask me about your favorite tool or practice.
