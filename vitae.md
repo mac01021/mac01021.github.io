@@ -69,11 +69,19 @@ Professional Experience
 Experience with Programming Tools and Practices
 -----------------------------------------------
 
-**Version Control**: CVS, SVN, Git, Mercurial
+**Version Control**: Git, SVN, CVS, Mercurial
 
-**Programming Languages**: Python, Java EE, Javascript, PHP, C/C++, C#, ASP.NET, et cetera
+**Programming Languages**: C/C++, Go, Java, Javascript, Python, et cetera
 
 **Software Development Methodologies**: Agile, SCRUM, Continuous Integration, Test-Driven Development
 
 I'm probably forgetting something.  Ask me about your favorite tool or practice.
+
+
+Publications
+------------
+
+- Short-term Load Forecasting: Similar Day-Based Wavelet Neural Networks (Y. Chen, P. B. Luh, Y. Zhao, L. D. Michel, M. A. Coolbeth, P. B. Friedland, & S. J. Rourke) In IEEE Transactions on Power Systems, volume 25, 2010.
+- Very Short-Term Load Forecasting: Multilevel Wavelet Neural Networks with Data Pre-filtering (C. Guan, P. B. Luh, L. D. Michel, M. A. Coolbeth, Y. Zhao, Y. Chen, C. J. Manville. P. B. Friedland, & S. J. Rourke) In Proceedings of the 2009 PESGM conference, 2009.
+- Data Collection with Multiple Sinks in Wireless Sensor Networks (S. Chen, M. Coolbeth, H. Dinh, Y. A. Kim, & B. Wang) In Proceedings of the 2009 conference ofn Wireless Algorithms, Systems, and Applications: pp. 284-294, 2009.
 
