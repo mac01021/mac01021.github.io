@@ -71,7 +71,7 @@ Experience with Programming Tools and Practices
 
 **Version Control**: Git, SVN, CVS, Mercurial
 
-**Programming Languages**: C/C++, Go, Java, Javascript, Python, et cetera
+**Programming Languages**: C/C++, Go, Java, Javascript, Python, SQL, et cetera
 
 **Software Development Methodologies**: Agile, SCRUM, Continuous Integration, Test-Driven Development
 
