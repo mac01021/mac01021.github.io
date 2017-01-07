@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{4cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Matthew} % Your first name
+\familyname{Coolbeth} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Software Engineer and  Computer Scientist}
+\address{2746 Hebron Avenue}{Glastonbury, CT 06033}
+
+\phone{(860) 420 2024}
+\email{coolbeth@gmail.com}
+
+% The first argument is the url for the clickable link, the second argument is the 
+% url displayed in the template - this allows special characters to be displayed such
+% as the tilde in this example
+%\homepageone{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} 
+%\homepageone{https://www.linkedin.com/in/mac01021}
+%			{https://www.linkedin.com/in/mac01021} 
+%\homepagetwo{https://github.com/mac01021}
+%			{https://github.com/mac01021}
+%%\homepagethree{https://play.google.com/store/apps/developer?id=mac01021}	 
+%%			  {https://play.google.com/store/apps/developer?id=mac01021} 
+
+
+%\homepagefour{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} 
+
+%\extrainfo{More stuff}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+%% To remove the cover letter, comment out this entire block
+%
+%\clearpage
+%
+%%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\recipient{~}{~}
+%\date{\today} % Letter date
+%\opening{To whom this may concern,} % Opening greeting
+%\closing{Sincerely,} % Closing phrase
+%\enclosure[Attached]{r\'{e}sum\'{e}{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%%%\lipsum[1-3] % Dummy text
+%This letter is written with interest in the position of Software Engineer III, Data and Platform Technology
+%advertised on the ESPN Careers website.
+%
+%I am a versatile software engineer with a graduate degree in computer science and a broad background in application
+%development. My experience includes a variety of projects that range from prototyping forecasting systems based on 
+%machine learning and signal processing to the development and maintenance of large, custom, enterprise web applications.
+%I have a strong grasp of modern web and database technologies, and am well versed in a variety of programming languages
+%and environments.
+%
+%After working for the last four years at the University of Connecticut, building
+%enterprise workflow applications, I am eager to move to a position that offers
+%increased technical challenge and responsibility, and allows me to work with larger teams on
+%systems that solve harder problems. 
+%I am excited about finding an opportunity to work on ESPN's data processing
+%infrastructure and would very much like to learn more about the details of this
+%position.  
+%
+%Attached to this letter, you will find a r\'{e}sum\'{e} detailing my background
+%and qualifications.  Please feel free to contact me at any time if you have
+%questions about its content, or would like to meet me to discuss in greater depth.
+%I am, as I have said, eager to learn more about the details of this position,
+%and I hope that I will hear from you soon.
+%
+%Thank you for your time.
+%
+%
+%
+%\makeletterclosing % Print letter signature
+%
+%
+%
+%\newpage
+%
+
+
+%----------------------------------------------------------------------------------------
+%	CV
+%--------------------------------------------------------------------------------------
+\makecvtitle % Print the CV title
+
+
+\vspace{-1.5cm}
+\section{Professional Experience}
+
+\cventry{Feb 2015 -- Present}{Software Engineer}{\textsc{ESPN}}{Bristol, CT}{}{
+	Building a data platform, using Apache Kafka and friends for streams
+	processing.  We have constructed a high-availability distributed
+	system, using Zookeeper for service coordination, with microservices
+	communicating via Apache-Avro-formatted messages using Kafka as a
+	message bus.  We are a JVM shop, with most software written in the 
+	Java programming language.  Heavy use of Git and Maven.
+}
+
+\cventry{Aug 2010 -- Feb 2015}{Applications Developer}{\textsc{University of Connecticut}}{Storrs, CT}{}{
+	Served on an agile software development team building custom enterprise software for university
+	staff.  Followed a SCRUM-style methodology with two-week sprints.
+	Used a branch-based (SVN) development process incorporating continual code review and
+	extensive automated testing.
+	~\\
+	The majority of our products were web applications, built using Python MVC frameworks, developed and hosted on
+	Linux, and using MS SQL Server as a backing data store.
+}
+
+
+\cventry{Jan 2010 -- Aug 2010}{Software Developer}{\textsc{QueBIT Consulting, LLC}}{Wilton, CT}{}{
+	\begin{itemize}
+		\item Helped to prototype a web application for double-entry book keeping based on the
+			IBM COGNOS TM1 database system.
+		\item Worked on Excel plugin to populate a journal template in an excel spreadsheet from TM1.
+		\item These products later evolved into QueBIT's "ControlWORQ" product.
+		\item Used C\#, ASP.NET, SOAP, MySQL, TM1, VBA, APIs for MS Excel.
+	\end{itemize}
+}
+
+\cventry{Sep 2009 -- Dec 2009}{Software Developer (Contractor) }{\textsc{Pfizer, Inc}}{Groton, CT}{}{
+	Developed a Java EE web application to process sets of nucleotide sequences for research biologists.
+	\begin{itemize}
+		\item Collaborated with genomics researchers to develop and refine application requirements.
+		\item Prototyped application to reflect changing requirements in an agile manner.
+		\item The application accepts zip files produced by DNA sequencers, converts each nucleotide
+			sequence to an amino acid sequence, executes an external process to generate a
+			multi-sequence alignment, and then generates a report depicting each alignment.
+		\item Used Java 6 EE, Tomcat, JSP, BioJava, HMMER, JQuery.
+	\end{itemize}
+}
+
+\cventry{Jan 2008 -- Aug 2009}{Research Specialist}{\textsc{University of Connecticut}}{Storrs, CT}{}{
+	Worked in an interdepartmental research group to build two energy-demand-forecasting
+			systems for ISO New England.
+	\begin{itemize}
+		\item Prototyped forecasting methods incorporating signal processing and
+			machine learning techniques (wavelet decomposition \& neural networks).
+		\item Primary Java developer for two forecasting engines: one short-term (days) and one
+			very short term (hourse).  The later system was later open-sourced.
+		\item Used Java 6, Swing, C++, MATLAB, Oracle, Perst (embedded database), Git, CVS.
+	\end{itemize}
+}
+
+\cventry{Aug 2007 -- Dec 2007}{Teaching Assistant}{\textsc{University of Connecticut}}{Storrs, CT}{}{
+	\begin{itemize}
+		\item Instructed weekly lab activity for a sophomore-level course on object oriented design.
+		\item Tutored undergraduate students in areas related to computer science and mathematics.
+	\end{itemize}
+}
+
+
+
+\section{Education}
+
+\cventry{2009}{MS - Computer Science \& Engineering}{University of Connecticut}{}{}{}  % Arguments not required can be left empty
+\cventry{2007}{BS - Computer Science}{University of Connecticut}{}{}{}
+
+
+
+\newpage
+\section{Programming Tools \& Practices}
+
+\cvitem{Version Control:} {\textsc{Git, Mercurial, Subversion, CVS}}
+\cvitem{Programming Languages:}{\textsc{C/C++, Clojure, Go, Java, Javascript, Python, Scala, SQL } et cetera}
+\cvitem{Database Systems:} {\textsc{MS SQL Server, MySQL, Oracle, SQLite, Cassandra}}
+\cvitem{Web Technologies:}{\textsc{AJAX, REST, Websockets}}
+\cvitem{Other Technologies:} {\textsc{Kafka, Zookeeper, Spark}}
+\cvitem{Engineering Practices:}{\textsc{Agile, SCRUM, Continuous Integration, Test-Driven Development}}
+
+{\em I am probably omitting something of interest.  Ask me about your favorite tool or practice.}
+
+\begin{thebibliography}{1}
+
+	\bibitem{stlf} {\em Short-term Load Forecasting: Similar Day-Based Wavelet Neural Networks}
+		(Y. Chen, P. B. Luh, Y. Zhao, L. D. Michel, M. A. Coolbeth, P. B. Friedland, \& S. J. Rourke)
+		{\em In IEEE Transactions on Power Systems, volume 25, 2010}.
+
+	\bibitem{vstlf} {\em Very Short-term Load Forecasting: Multilevel Wavelet Neural Networks with Data
+		Pre-filtering}
+		(C. Guan, P. B. Luh, L. D. Michel, M. A. Coolbeth, Y. Zhao, Y. Chen, C. J. Manville, P. B. Friedland,
+		\& S. J. Rourke)
+		{\em In Proceedings of the 2009 PESGM, 2009}.
+
+	\bibitem{data-collection} {\em Data Collection with Multiple Sinks in Wireless Sensor Networks} 
+		(S. Chen, M. Coolbeth, H. Dinh, Y. A. Kim, \& B. Wang)
+		{\em In Proceedings of the 2009 conference on Wireless Algorithms, Systems, and Applications, 2009}.
+
+\end{thebibliography}
+
+
+\end{document}
+

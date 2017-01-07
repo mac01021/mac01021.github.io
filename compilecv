@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+cp -R ./cv-src ./tmpfolder           &&\
+cd tmpfolder                         &&\
+pdflatex cv.tex                      &&\
+cd ..                                &&\
+cp tmpfolder/cv.pdf documents/cv.pdf &&\
+rm -rf tmpfolder                     ;
+
